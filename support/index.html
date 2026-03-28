@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact &amp; Support – FinBuddy</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #1A1733;
+      color: #E2E8F0;
+      line-height: 1.7;
+    }
+    header {
+      background: rgba(139,92,246,0.1);
+      border-bottom: 1px solid rgba(139,92,246,0.2);
+      padding: 20px;
+      display: flex; align-items: center; gap: 12px;
+    }
+    header a { color: #8B5CF6; text-decoration: none; font-size: 0.9rem; }
+    header a:hover { text-decoration: underline; }
+    header span { color: #4B5563; }
+    .container { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
+    .badge {
+      display: inline-block;
+      background: rgba(139,92,246,0.15);
+      border: 1px solid rgba(139,92,246,0.3);
+      color: #A78BFA;
+      font-size: 0.75rem; font-weight: 600; letter-spacing: 0.05em;
+      text-transform: uppercase;
+      padding: 4px 12px; border-radius: 20px; margin-bottom: 16px;
+    }
+    h1 { font-size: 2rem; font-weight: 700; margin-bottom: 8px; }
+    .meta { color: #94A3B8; font-size: 0.875rem; margin-bottom: 40px; }
+    h2 {
+      font-size: 1.1rem; font-weight: 700;
+      color: #C4B5FD;
+      margin: 36px 0 10px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid rgba(139,92,246,0.15);
+    }
+    p { color: #CBD5E1; margin-bottom: 14px; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 16px;
+      margin-bottom: 40px;
+    }
+    .card {
+      background: rgba(139,92,246,0.08);
+      border: 1px solid rgba(139,92,246,0.2);
+      border-radius: 14px;
+      padding: 24px;
+    }
+    .card-icon { font-size: 28px; margin-bottom: 12px; }
+    .card h3 { font-size: 1rem; font-weight: 700; margin-bottom: 6px; }
+    .card p { font-size: 0.875rem; color: #94A3B8; margin-bottom: 16px; }
+    .card a {
+      display: inline-block;
+      background: linear-gradient(135deg, #7C3AED, #8B5CF6);
+      color: white; text-decoration: none;
+      padding: 10px 20px; border-radius: 20px;
+      font-size: 0.875rem; font-weight: 600;
+      transition: opacity 0.2s;
+    }
+    .card a:hover { opacity: 0.85; }
+    .faq-item {
+      background: rgba(139,92,246,0.05);
+      border: 1px solid rgba(139,92,246,0.15);
+      border-radius: 12px;
+      padding: 18px 20px;
+      margin-bottom: 10px;
+    }
+    .faq-q { font-weight: 600; color: #E2E8F0; margin-bottom: 8px; }
+    .faq-a { color: #94A3B8; font-size: 0.9rem; margin: 0; }
+    footer {
+      text-align: center; padding: 32px 20px;
+      border-top: 1px solid rgba(139,92,246,0.15);
+      color: #4B5563; font-size: 0.8rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="/finBuddy-legal/">← FinBuddy Legal</a>
+    <span>/</span>
+    <span style="color:#E2E8F0">Contact &amp; Support</span>
+  </header>
+
+  <div class="container">
+    <div class="badge">Support</div>
+    <h1>Contact &amp; Support</h1>
+    <p class="meta">We typically respond within 24–48 hours.</p>
+
+    <div class="cards">
+      <div class="card">
+        <div class="card-icon">✉️</div>
+        <h3>Email Support</h3>
+        <p>Have a question, found a bug, or want to share feedback? Reach us directly.</p>
+        <a href="mailto:sunnyrajpoot00@gmail.com">Send Email</a>
+      </div>
+      <div class="card">
+        <div class="card-icon">🐛</div>
+        <h3>Report a Bug</h3>
+        <p>Something not working as expected? Let us know and we'll fix it fast.</p>
+        <a href="mailto:sunnyrajpoot00@gmail.com?subject=FinBuddy%20Bug%20Report">Report Bug</a>
+      </div>
+    </div>
+
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+      <div class="faq-q">Is my financial data safe?</div>
+      <p class="faq-a">Yes. All data is stored locally on your device and never sent to any server. FinBuddy has no backend — your data stays with you.</p>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">How do I back up my data?</div>
+      <p class="faq-a">FinBuddy data is stored in your device's app storage. Enable iCloud Backup (iPhone) or Google One Backup (Android) in your device settings to include FinBuddy data in your device backups.</p>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">I deleted the app and lost my data. Can I recover it?</div>
+      <p class="faq-a">Unfortunately no — since all data is local, uninstalling removes it. If you had a device backup made before uninstalling, restoring that backup should recover your data.</p>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">Can I transfer data between devices?</div>
+      <p class="faq-a">Currently FinBuddy does not support cross-device sync. Data is tied to the device it was entered on. This is a feature we may add in a future update.</p>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">Are currency exchange rates real-time?</div>
+      <p class="faq-a">Exchange rates are fetched periodically and may not reflect live market rates. They are for personal tracking purposes only and should not be used for financial transactions.</p>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">How do I delete all my data?</div>
+      <p class="faq-a">Simply uninstall the app from your device. This permanently removes all locally stored data.</p>
+    </div>
+
+    <h2>General Contact</h2>
+    <p>For all other inquiries including partnership or press, email us at <a href="mailto:sunnyrajpoot00@gmail.com">sunnyrajpoot00@gmail.com</a>.</p>
+  </div>
+
+  <footer>© 2026 FinBuddy. All rights reserved.</footer>
+</body>
+</html>
