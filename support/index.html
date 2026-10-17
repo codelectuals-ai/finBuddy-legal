@@ -3,147 +3,105 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact &amp; Support – FinBuddy</title>
-  <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      background: #1A1733;
-      color: #E2E8F0;
-      line-height: 1.7;
-    }
-    header {
-      background: rgba(139,92,246,0.1);
-      border-bottom: 1px solid rgba(139,92,246,0.2);
-      padding: 20px;
-      display: flex; align-items: center; gap: 12px;
-    }
-    header a { color: #8B5CF6; text-decoration: none; font-size: 0.9rem; }
-    header a:hover { text-decoration: underline; }
-    header span { color: #4B5563; }
-    .container { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
-    .badge {
-      display: inline-block;
-      background: rgba(139,92,246,0.15);
-      border: 1px solid rgba(139,92,246,0.3);
-      color: #A78BFA;
-      font-size: 0.75rem; font-weight: 600; letter-spacing: 0.05em;
-      text-transform: uppercase;
-      padding: 4px 12px; border-radius: 20px; margin-bottom: 16px;
-    }
-    h1 { font-size: 2rem; font-weight: 700; margin-bottom: 8px; }
-    .meta { color: #94A3B8; font-size: 0.875rem; margin-bottom: 40px; }
-    h2 {
-      font-size: 1.1rem; font-weight: 700;
-      color: #C4B5FD;
-      margin: 36px 0 10px;
-      padding-bottom: 8px;
-      border-bottom: 1px solid rgba(139,92,246,0.15);
-    }
-    p { color: #CBD5E1; margin-bottom: 14px; }
-    .cards {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 16px;
-      margin-bottom: 40px;
-    }
-    .card {
-      background: rgba(139,92,246,0.08);
-      border: 1px solid rgba(139,92,246,0.2);
-      border-radius: 14px;
-      padding: 24px;
-    }
-    .card-icon { font-size: 28px; margin-bottom: 12px; }
-    .card h3 { font-size: 1rem; font-weight: 700; margin-bottom: 6px; }
-    .card p { font-size: 0.875rem; color: #94A3B8; margin-bottom: 16px; }
-    .card a {
-      display: inline-block;
-      background: linear-gradient(135deg, #7C3AED, #8B5CF6);
-      color: white; text-decoration: none;
-      padding: 10px 20px; border-radius: 20px;
-      font-size: 0.875rem; font-weight: 600;
-      transition: opacity 0.2s;
-    }
-    .card a:hover { opacity: 0.85; }
-    .faq-item {
-      background: rgba(139,92,246,0.05);
-      border: 1px solid rgba(139,92,246,0.15);
-      border-radius: 12px;
-      padding: 18px 20px;
-      margin-bottom: 10px;
-    }
-    .faq-q { font-weight: 600; color: #E2E8F0; margin-bottom: 8px; }
-    .faq-a { color: #94A3B8; font-size: 0.9rem; margin: 0; }
-    footer {
-      text-align: center; padding: 32px 20px;
-      border-top: 1px solid rgba(139,92,246,0.15);
-      color: #4B5563; font-size: 0.8rem;
-    }
-  </style>
+  <title>Support · FinBuddy</title>
+  <meta name="description" content="Get help with FinBuddy: accounts, Premium, sync, backups and more." />
+  <link rel="icon" href="../assets/finbuddy-icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../assets/site.css" />
 </head>
 <body>
-  <header>
-    <a href="/finBuddy-legal/">← FinBuddy Legal</a>
-    <span>/</span>
-    <span style="color:#E2E8F0">Contact &amp; Support</span>
-  </header>
+  <nav class="topbar">
+    <img src="../assets/finbuddy-icon.png" alt="" />
+    <a class="brand" href="../">FinBuddy</a>
+    <span class="sep">/</span>
+    <span class="here">Support</span>
+  </nav>
 
-  <div class="container">
-    <div class="badge">Support</div>
-    <h1>Contact &amp; Support</h1>
-    <p class="meta">We typically respond within 24–48 hours.</p>
+  <main>
+    <span class="eyebrow">Support</span>
+    <h1>How can we help?</h1>
+    <p class="meta">We usually reply within 24–48 hours.</p>
 
-    <div class="cards">
-      <div class="card">
-        <div class="card-icon">✉️</div>
-        <h3>Email Support</h3>
-        <p>Have a question, found a bug, or want to share feedback? Reach us directly.</p>
-        <a href="mailto:bilalahmad.dev@gmail.com">Send Email</a>
-      </div>
-      <div class="card">
-        <div class="card-icon">🐛</div>
-        <h3>Report a Bug</h3>
-        <p>Something not working as expected? Let us know and we'll fix it fast.</p>
-        <a href="mailto:bilalahmad.dev@gmail.com?subject=FinBuddy%20Bug%20Report">Report Bug</a>
-      </div>
+    <div class="tiles" style="margin-bottom: 28px;">
+      <a class="tile" href="mailto:bilalahmad.dev@gmail.com?subject=FinBuddy%20support">
+        <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m3 7 9 6 9-6"/></svg></span>
+        <span><span class="t">Email support</span><br /><span class="d">Questions, feedback, account help</span></span>
+        <span class="go">›</span>
+      </a>
+      <a class="tile" href="mailto:bilalahmad.dev@gmail.com?subject=FinBuddy%20bug%20report&body=What%20happened%3A%0A%0AWhat%20you%20expected%3A%0A%0AiPhone%20model%20and%20iOS%20version%3A%0AFinBuddy%20version%20(Settings%2C%20bottom)%3A%0A">
+        <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20v-9"/><path d="M14 7a4 4 0 0 1 4 4v3a6 6 0 0 1-12 0v-3a4 4 0 0 1 4-4z"/><path d="M14.12 3.88 16 2M8 2l1.88 1.88M9 7.13V6a3 3 0 1 1 6 0v1.13M3 13h3M18 13h3M4 21l2.5-2.5M20 21l-2.5-2.5"/></svg></span>
+        <span><span class="t">Report a bug</span><br /><span class="d">Opens an email with a short template</span></span>
+        <span class="go">›</span>
+      </a>
     </div>
 
-    <h2>Frequently Asked Questions</h2>
+    <h2>Account &amp; sign-in</h2>
+    <details>
+      <summary>Why do I need an account?</summary>
+      <p>Your account keeps your data tied to you, lets Premium unlock on every device you sign in to, and makes backup and sync possible. We only use your email to run your account — see the <a href="../privacy-policy/">Privacy Policy</a>.</p>
+    </details>
+    <details>
+      <summary>I didn't get the confirmation code</summary>
+      <p>Check your spam or promotions folder, make sure the email address is spelled correctly, then tap <em>Resend</em> on the code screen. Codes expire after a few minutes, so use the newest one.</p>
+    </details>
+    <details>
+      <summary>I forgot my password</summary>
+      <p>On the sign-in screen tap <em>Forgot password</em>, enter your email and follow the link we send to choose a new one. Open the link on the iPhone where FinBuddy is installed.</p>
+    </details>
+    <details>
+      <summary>How do I delete my account?</summary>
+      <p>Go to <em>Settings → Delete account</em>. This permanently deletes your account and all synced data and cannot be undone, so export first if you want a copy. Deleting your account does <strong>not</strong> cancel an active subscription — cancel it in <em>iOS Settings → your name → Subscriptions</em>.</p>
+    </details>
 
-    <div class="faq-item">
-      <div class="faq-q">Is my financial data safe?</div>
-      <p class="faq-a">Yes. All data is stored locally on your device and never sent to any server. FinBuddy has no backend — your data stays with you.</p>
-    </div>
+    <h2>Free &amp; Premium</h2>
+    <details>
+      <summary>What's the difference between Free and Premium?</summary>
+      <ul>
+        <li><strong>Free:</strong> the current month's history on this phone, one bill reminder, and CSV export of up to three months.</li>
+        <li><strong>Premium:</strong> full history, unlimited bills, cloud backup and sync across devices, and full JSON backup.</li>
+      </ul>
+    </details>
+    <details>
+      <summary>How do I cancel Premium?</summary>
+      <p>Open <em>iOS Settings → your name → Subscriptions → FinBuddy</em> and tap <em>Cancel Subscription</em> at least 24 hours before it renews. Premium stays active until the end of the period you've paid for, and your data is kept.</p>
+    </details>
+    <details>
+      <summary>I bought Premium but the app still shows Free</summary>
+      <p>Make sure you're signed in to the same FinBuddy account, then tap <em>Restore purchases</em> on the membership screen. If that doesn't help, email us with the date of purchase.</p>
+    </details>
+    <details>
+      <summary>Can I get a refund?</summary>
+      <p>Purchases are processed by Apple, so refunds are requested from Apple at <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+    </details>
 
-    <div class="faq-item">
-      <div class="faq-q">How do I back up my data?</div>
-      <p class="faq-a">FinBuddy data is stored in your device's app storage. Enable iCloud Backup (iPhone) or Google One Backup (Android) in your device settings to include FinBuddy data in your device backups.</p>
-    </div>
+    <h2>Data, sync &amp; backups</h2>
+    <details>
+      <summary>Is my financial data safe?</summary>
+      <p>FinBuddy never connects to your bank. On Free, your records stay on your phone. On Premium they're also stored in our cloud database, encrypted in transit, and access rules ensure only your account can read them. We never sell your data or show ads.</p>
+    </details>
+    <details>
+      <summary>How do I move to a new iPhone?</summary>
+      <p><strong>Premium:</strong> install FinBuddy on the new phone and sign in — your data syncs down automatically. <strong>Free:</strong> on the old phone, export a backup from <em>Settings → Data &amp; backup</em>, then import it on the new phone.</p>
+    </details>
+    <details>
+      <summary>How do I back up or export my data?</summary>
+      <p>Go to <em>Settings → Data &amp; backup</em>. You can export transactions as CSV or (Premium) a full JSON backup, and import a backup later.</p>
+    </details>
+    <details>
+      <summary>My data isn't syncing</summary>
+      <p>Sync is part of Premium and needs an internet connection. Check that Premium is active, then open the app with a connection and give it a moment. <em>Settings</em> shows the sync status and a <em>Try again</em> option if something couldn't be uploaded. Still stuck? Email us.</p>
+    </details>
+    <details>
+      <summary>Are exchange rates live?</summary>
+      <p>Rates are refreshed periodically from a public source and are for personal tracking only — not for real transactions.</p>
+    </details>
 
-    <div class="faq-item">
-      <div class="faq-q">I deleted the app and lost my data. Can I recover it?</div>
-      <p class="faq-a">Unfortunately no — since all data is local, uninstalling removes it. If you had a device backup made before uninstalling, restoring that backup should recover your data.</p>
-    </div>
+    <h2>Still need help?</h2>
+    <p>Email <a href="mailto:bilalahmad.dev@gmail.com?subject=FinBuddy%20support">bilalahmad.dev@gmail.com</a> and include your iPhone model and the FinBuddy version from the bottom of Settings.</p>
+  </main>
 
-    <div class="faq-item">
-      <div class="faq-q">Can I transfer data between devices?</div>
-      <p class="faq-a">Currently FinBuddy does not support cross-device sync. Data is tied to the device it was entered on. This is a feature we may add in a future update.</p>
-    </div>
-
-    <div class="faq-item">
-      <div class="faq-q">Are currency exchange rates real-time?</div>
-      <p class="faq-a">Exchange rates are fetched periodically and may not reflect live market rates. They are for personal tracking purposes only and should not be used for financial transactions.</p>
-    </div>
-
-    <div class="faq-item">
-      <div class="faq-q">How do I delete all my data?</div>
-      <p class="faq-a">Simply uninstall the app from your device. This permanently removes all locally stored data.</p>
-    </div>
-
-    <h2>General Contact</h2>
-    <p>For all other inquiries including partnership or press, email us at <a href="mailto:bilalahmad.dev@gmail.com">bilalahmad.dev@gmail.com</a>.</p>
-  </div>
-
-  <footer>© 2026 FinBuddy. All rights reserved.</footer>
+  <footer>© 2026 FinBuddy · <a href="../privacy-policy/">Privacy</a> · <a href="../terms/">Terms</a></footer>
 </body>
 </html>

@@ -3,113 +3,167 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Privacy Policy – FinBuddy</title>
-  <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      background: #1A1733;
-      color: #E2E8F0;
-      line-height: 1.7;
-    }
-    header {
-      background: rgba(139,92,246,0.1);
-      border-bottom: 1px solid rgba(139,92,246,0.2);
-      padding: 20px;
-      display: flex; align-items: center; gap: 12px;
-    }
-    header a { color: #8B5CF6; text-decoration: none; font-size: 0.9rem; }
-    header a:hover { text-decoration: underline; }
-    header span { color: #4B5563; }
-    .container { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
-    .badge {
-      display: inline-block;
-      background: rgba(139,92,246,0.15);
-      border: 1px solid rgba(139,92,246,0.3);
-      color: #A78BFA;
-      font-size: 0.75rem; font-weight: 600; letter-spacing: 0.05em;
-      text-transform: uppercase;
-      padding: 4px 12px; border-radius: 20px; margin-bottom: 16px;
-    }
-    h1 { font-size: 2rem; font-weight: 700; margin-bottom: 8px; }
-    .meta { color: #94A3B8; font-size: 0.875rem; margin-bottom: 40px; }
-    .highlight {
-      background: rgba(16,185,129,0.1);
-      border: 1px solid rgba(16,185,129,0.25);
-      border-radius: 12px;
-      padding: 16px 20px;
-      margin-bottom: 36px;
-      color: #6EE7B7;
-      font-size: 0.9rem;
-    }
-    h2 {
-      font-size: 1.1rem; font-weight: 700;
-      color: #C4B5FD;
-      margin: 36px 0 10px;
-      padding-bottom: 8px;
-      border-bottom: 1px solid rgba(139,92,246,0.15);
-    }
-    p { color: #CBD5E1; margin-bottom: 14px; }
-    ul { color: #CBD5E1; padding-left: 20px; margin-bottom: 14px; }
-    li { margin-bottom: 6px; }
-    a { color: #8B5CF6; }
-    footer {
-      text-align: center; padding: 32px 20px;
-      border-top: 1px solid rgba(139,92,246,0.15);
-      color: #4B5563; font-size: 0.8rem;
-    }
-  </style>
+  <title>Privacy Policy · FinBuddy</title>
+  <meta name="description" content="How FinBuddy collects, uses and protects your information." />
+  <link rel="icon" href="../assets/finbuddy-icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../assets/site.css" />
 </head>
 <body>
-  <header>
-    <a href="/finBuddy-legal/">← FinBuddy Legal</a>
-    <span>/</span>
-    <span style="color:#E2E8F0">Privacy Policy</span>
-  </header>
+  <nav class="topbar">
+    <img src="../assets/finbuddy-icon.png" alt="" />
+    <a class="brand" href="../">FinBuddy</a>
+    <span class="sep">/</span>
+    <span class="here">Privacy Policy</span>
+  </nav>
 
-  <div class="container">
-    <div class="badge">Legal</div>
+  <main>
+    <span class="eyebrow">Legal</span>
     <h1>Privacy Policy</h1>
-    <p class="meta">Last updated: March 29, 2026 · Effective immediately</p>
+    <p class="meta">Last updated October 18, 2026 · Applies to FinBuddy for iOS, version 3.1 and later</p>
 
-    <div class="highlight">
-      ✅ <strong>Short version:</strong> FinBuddy stores all your financial data <strong>locally on your device only</strong>. We do not collect, transmit, or sell any personal information.
+    <div class="card summary">
+      <p><strong>The short version</strong></p>
+      <ul>
+        <li>You sign in with an email address. We use it to run your account and nothing else.</li>
+        <li>On the <strong>Free</strong> plan your transactions, budgets, goals and bills stay on your phone.</li>
+        <li>On <strong>Premium</strong> they are also stored in our cloud database so they back up and sync across your devices.</li>
+        <li>We never sell your data, never show ads and never track you across other apps or websites.</li>
+        <li>You can export your data, switch off analytics, and delete your account and all synced data from inside the app.</li>
+      </ul>
     </div>
 
-    <h2>1. Introduction</h2>
-    <p>FinBuddy ("we", "our", or "us") is a personal finance tracking application. This Privacy Policy explains how we handle information when you use our mobile application.</p>
+    <div class="card">
+      <ol class="toc">
+        <li><a href="#who">Who we are</a></li>
+        <li><a href="#collect">What we collect</a></li>
+        <li><a href="#use">How we use it</a></li>
+        <li><a href="#providers">Service providers</a></li>
+        <li><a href="#storage">Where it's stored and how it's protected</a></li>
+        <li><a href="#sharing">What we don't do</a></li>
+        <li><a href="#retention">How long we keep it</a></li>
+        <li><a href="#rights">Your choices and rights</a></li>
+        <li><a href="#delete">Deleting your account</a></li>
+        <li><a href="#children">Children</a></li>
+        <li><a href="#transfers">International transfers</a></li>
+        <li><a href="#changes">Changes to this policy</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ol>
+    </div>
 
-    <h2>2. Information We Collect</h2>
-    <p>FinBuddy does <strong>not</strong> collect any personal information. Specifically:</p>
+    <h2 id="who"><span class="num">1.</span>Who we are</h2>
+    <p>FinBuddy is a personal finance app for tracking spending, budgets, savings goals and bills, available worldwide. It is developed and operated by <strong>Bilal Ahmad</strong>, an individual developer based in Pakistan ("we", "us"), who is responsible for your personal information (the "data controller" under laws such as the GDPR).</p>
+    <p>This policy explains what information the app collects, why, who processes it on our behalf, and the choices you have. It covers the FinBuddy iOS app and this website, wherever you use them.</p>
+
+    <h2 id="collect"><span class="num">2.</span>What we collect</h2>
+
+    <h3>Account information</h3>
+    <p>To use FinBuddy you create an account with an <strong>email address and password</strong>. Your password is never stored by us in readable form; our authentication provider stores only a secure hash. We send your email a one-time code to confirm it, and use it for password resets and essential account messages.</p>
+
+    <h3>Financial records you enter</h3>
+    <p>The accounts, transactions, categories, budgets, goals, bills and bill payments you add. FinBuddy does <strong>not</strong> connect to your bank and never sees bank logins or card numbers — everything is entered by you.</p>
     <ul>
-      <li>We do not require account registration or login</li>
-      <li>We do not collect your name, email address, or any identifying information</li>
-      <li>We do not transmit any financial data to external servers</li>
-      <li>We do not use analytics or crash-reporting tools that send data off your device</li>
+      <li><strong>Free plan:</strong> these records are stored on your device only.</li>
+      <li><strong>Premium plan:</strong> these records are also stored in our cloud database, linked to your account, so they can back up and sync between your devices. If Premium ends, records already synced stay in your account until you delete them or delete the account.</li>
+    </ul>
+    <p>The first name you type during setup, your theme, currency and reminder preferences stay on your device.</p>
+
+    <h3>Purchase information</h3>
+    <p>Subscriptions are bought and billed by Apple. We receive your subscription status (for example, active, renewed, expired) and transaction identifiers from Apple through our subscription provider, linked to your account so Premium unlocks on every device you sign in to. <strong>We never receive your payment card details.</strong></p>
+
+    <h3>Usage analytics</h3>
+    <p>If analytics is on (it can be turned off in <em>Settings</em>), the app sends anonymous usage events such as which screen was opened, or that a transaction, budget, goal or bill was created, along with non-identifying details like the currency used or whether a note was added. <strong>Analytics events never include amounts, notes, account names or your email</strong>, and are not linked to your account. An app-instance identifier generated by the analytics SDK is used to count events; we do not collect the advertising identifier (IDFA) and do not ask to track you.</p>
+
+    <h3>Crash reports and diagnostics</h3>
+    <p>When the app crashes or hits an error, it sends a crash report: device model, iOS and app version, the technical stack trace, and short diagnostic log lines describing what the app was doing (for example, "sync finished" or "push registration failed"). These reports are used only to find and fix bugs and are not linked to your account.</p>
+
+    <h3>Notifications</h3>
+    <p>Bill and daily reminders are scheduled on your device. If you allow notifications, the app also registers a <strong>push token</strong> with our servers so we can send you account-related notifications, such as confirmation that Premium is active. The token is removed when you sign out or delete your account.</p>
+
+    <h3>Exchange rates</h3>
+    <p>To convert between currencies the app downloads public exchange rates. The request contains only a currency code (for example, "USD") — no account or financial information.</p>
+
+    <h2 id="use"><span class="num">3.</span>How we use it</h2>
+    <ul>
+      <li>To create and secure your account and keep you signed in.</li>
+      <li>To provide the app's features, and on Premium to back up and sync your records across devices.</li>
+      <li>To check your subscription and unlock Premium.</li>
+      <li>To send reminders and account notifications you have allowed.</li>
+      <li>To understand which features are used and to diagnose crashes, so we can improve the app.</li>
+      <li>To respond to your support requests and to meet legal obligations.</li>
+    </ul>
+    <p>Our legal bases, where applicable laws require one, are performing our contract with you (running the app and your subscription), our legitimate interest in keeping the app reliable and secure, and your consent for analytics and notifications, which you can withdraw at any time.</p>
+
+    <h2 id="providers"><span class="num">4.</span>Service providers</h2>
+    <p>We use a small number of providers who process data only on our instructions and only to deliver their service:</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Provider</th><th>Purpose</th><th>Data involved</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Supabase</strong> (hosted on Amazon Web Services)</td><td>Accounts, sign-in, cloud database for Premium sync</td><td>Email, password hash, account and subscription status, synced financial records, push token</td></tr>
+          <tr><td><strong>Apple</strong></td><td>App distribution, in-app purchases, push notification delivery</td><td>Purchase and subscription records (under Apple's own privacy policy)</td></tr>
+          <tr><td><strong>RevenueCat</strong></td><td>Subscription management</td><td>Account identifier, subscription status and purchase history</td></tr>
+          <tr><td><strong>Google Firebase</strong> — Analytics and Crashlytics</td><td>Anonymous usage analytics; crash reporting</td><td>Usage events, app-instance identifier, crash reports and diagnostics</td></tr>
+          <tr><td><strong>Expo</strong></td><td>Push notification relay</td><td>Push token and notification content</td></tr>
+          <tr><td><strong>ExchangeRate-API</strong> (open.er-api.com)</td><td>Currency exchange rates</td><td>A currency code only</td></tr>
+          <tr><td>Our email delivery provider</td><td>Sign-up codes and password resets</td><td>Your email address and the message</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2 id="storage"><span class="num">5.</span>Where it's stored and how it's protected</h2>
+    <ul>
+      <li><strong>On your device:</strong> app data is kept in the app's private storage, protected by iOS. Your sign-in session is stored in the iOS Keychain.</li>
+      <li><strong>In the cloud (Premium):</strong> synced records are stored in our Supabase database in the Asia-Pacific (Sydney) region. Every row is tied to your account, and database access rules ensure each account can read and change only its own data.</li>
+      <li>All traffic between the app and our servers is encrypted in transit (HTTPS/TLS). Our providers encrypt stored data at rest.</li>
+    </ul>
+    <p>No method of storage or transmission is completely secure, but we work to protect your information and limit access to it.</p>
+
+    <h2 id="sharing"><span class="num">6.</span>What we don't do</h2>
+    <ul>
+      <li>We do <strong>not sell</strong> or rent your personal information.</li>
+      <li>We do <strong>not show ads</strong> or share data with advertisers or data brokers.</li>
+      <li>We do <strong>not track you</strong> across apps and websites owned by other companies.</li>
+    </ul>
+    <p>We disclose information only to the providers listed above, if required by law or valid legal process, to protect the rights and safety of our users or the public, or as part of a merger or sale of the app, in which case this policy will continue to apply to your information.</p>
+
+    <h2 id="retention"><span class="num">7.</span>How long we keep it</h2>
+    <ul>
+      <li>Account and synced data: for as long as your account exists. When you delete your account, it is removed from our active database immediately; copies in our providers' routine backups are overwritten within their backup cycle (typically within 30 days).</li>
+      <li>Analytics and crash reports: kept by Google under Firebase's retention settings (crash reports for up to 90 days; analytics events for up to 14 months) and not linked to your account.</li>
+      <li>Purchase records: kept by Apple and RevenueCat as required for billing, tax and accounting.</li>
+      <li>Support emails: kept for as long as needed to help you, then deleted.</li>
     </ul>
 
-    <h2>3. Data Storage</h2>
-    <p>All data you enter into FinBuddy — including transactions, budgets, goals, accounts, and card information — is stored exclusively on your device using secure local storage (AsyncStorage and iOS Keychain / Android Keystore for sensitive values).</p>
-    <p>This data never leaves your device unless you explicitly use your device's own backup mechanisms (such as iCloud or Android backup), which are governed by Apple's or Google's privacy policies respectively.</p>
+    <h2 id="rights"><span class="num">8.</span>Your choices and rights</h2>
+    <ul>
+      <li><strong>Export:</strong> download your data as CSV or a full JSON backup from <em>Settings → Data &amp; backup</em>.</li>
+      <li><strong>Correct:</strong> edit any record in the app at any time.</li>
+      <li><strong>Analytics:</strong> turn usage analytics off in <em>Settings</em>.</li>
+      <li><strong>Notifications:</strong> turn them off in the app or in iOS Settings.</li>
+      <li><strong>Delete:</strong> delete your account and synced data from <em>Settings → Delete account</em>.</li>
+    </ul>
+    <p>Depending on where you live (for example, under the GDPR in the EU/UK or the CCPA/CPRA in California), you may have rights to access, correct, delete or port your personal information, to object to or restrict certain processing, and to withdraw consent. We do not sell or "share" personal information as those laws define it. To exercise a right, email us from the address on your account; we will respond within the time the law requires and will not treat you differently for doing so. You may also complain to your local data protection authority.</p>
 
-    <h2>4. Third-Party Services</h2>
-    <p>FinBuddy does not integrate with any third-party advertising networks, analytics platforms, or data brokers.</p>
-    <p>The app may use exchange rate data for currency conversion. This request is made to a public exchange rate API and does not include any personal or financial data from your account.</p>
+    <h2 id="delete"><span class="num">9.</span>Deleting your account</h2>
+    <p>Go to <strong>Settings → Delete account</strong> in the app. This permanently deletes your FinBuddy account, all of your synced records and your push token, asks our subscription provider to remove your customer record, then signs you out. Apple keeps its own purchase records for billing and tax. It cannot be undone, so export anything you want to keep first.</p>
+    <p><strong>Deleting your account does not cancel an active subscription</strong> — Apple bills it. Cancel it in <em>iOS Settings → your name → Subscriptions</em>. If you no longer have the app, email us and we will delete your account for you.</p>
 
-    <h2>5. Children's Privacy</h2>
-    <p>FinBuddy does not knowingly collect any information from children under 13. The app does not collect any personal data from any user, regardless of age.</p>
+    <h2 id="children"><span class="num">10.</span>Children</h2>
+    <p>FinBuddy is not directed to children under 13 (or the minimum age in your country), and we do not knowingly collect their personal information. If you believe a child has created an account, contact us and we will delete it.</p>
 
-    <h2>6. Data Deletion</h2>
-    <p>Since all data is stored locally on your device, you can delete all app data at any time by uninstalling the application. No data exists on external servers that would need to be requested for deletion.</p>
+    <h2 id="transfers"><span class="num">11.</span>International transfers</h2>
+    <p>FinBuddy is used worldwide and operated from Pakistan, and our providers may process information in countries other than yours, including Australia (our database region) and the United States. These countries may have different data protection laws from yours. Where required, transfers are protected by appropriate safeguards such as the providers' standard contractual clauses, and we apply the protections in this policy wherever your information is processed.</p>
 
-    <h2>7. Changes to This Policy</h2>
-    <p>We may update this Privacy Policy from time to time. The updated date at the top of this page will reflect any changes. Continued use of the app after changes constitutes acceptance of the revised policy.</p>
+    <h2 id="changes"><span class="num">12.</span>Changes to this policy</h2>
+    <p>We will update this page when our practices change and revise the date at the top. If a change materially affects how we use your information, we will tell you in the app before it takes effect.</p>
 
-    <h2>8. Contact Us</h2>
-    <p>If you have any questions about this Privacy Policy, please contact us at:</p>
-    <p><a href="mailto:bilalahmad.dev@gmail.com">bilalahmad.dev@gmail.com</a></p>
-  </div>
+    <h2 id="contact"><span class="num">13.</span>Contact</h2>
+    <p>Questions or requests about privacy: <a href="mailto:bilalahmad.dev@gmail.com?subject=FinBuddy%20privacy">bilalahmad.dev@gmail.com</a></p>
+  </main>
 
-  <footer>© 2026 FinBuddy. All rights reserved.</footer>
+  <footer>© 2026 FinBuddy · <a href="../terms/">Terms</a> · <a href="../support/">Support</a></footer>
 </body>
 </html>
